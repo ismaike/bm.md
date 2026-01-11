@@ -18,7 +18,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/ccbikai/bm.md.git
+git clone https://github.com/miantiao-me/bm.md.git
 cd bm.md
 
 # 安装依赖
