@@ -580,9 +580,8 @@
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  text-shadow:
-    1px 1px 0 #0d0d1a,
-    2px 2px 0 rgba(0, 0, 0, 0.3);
+  /* 简化 text-shadow，保留单层深色投影提升可读性 */
+  text-shadow: 1px 1px 0 #0d0d1a;
 }
 
 #bm-md td {

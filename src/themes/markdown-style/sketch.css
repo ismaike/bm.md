@@ -468,6 +468,7 @@
   font-weight: 700;
   color: #2d2d2d;
   border-bottom: 2px solid #2d2d2d;
+  border-top: none;
 }
 
 #bm-md tbody tr:nth-child(even) {
