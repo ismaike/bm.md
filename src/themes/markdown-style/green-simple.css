@@ -3,9 +3,7 @@
  */
 
 #bm-md {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 8px;
+  padding: 1em;
   font-family:
     PingFang SC,
     system-ui,
