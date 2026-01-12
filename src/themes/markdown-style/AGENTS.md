@@ -19,6 +19,11 @@
 13. 如果使用背景色渐变，要做纯色降级
 14. 不需要媒体查询
 15. 布局紧凑，适合多平台阅读
+16. 不使用 letter-spacing 属性，避免跨平台（Windows/macOS）字体渲染差异导致文字换行问题
+17. 不使用紫色渐变
+18. 不使用 glow/发光效果
+19. 不使用 blur()、backdrop-filter 等高性能开销的滤镜
+20. 除非明确要求，否则不使用 CSS 动画（animation/transition）
 
 ## 必须包含的元素
 
@@ -54,7 +59,6 @@ code
 pre
 pre code（重置行内代码样式）
 table
-thead, tfoot
 th, td
 tbody tr:nth-child(even)
 .frontmatter-table

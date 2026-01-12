@@ -49,7 +49,6 @@
   line-height: 1.15;
   margin-top: 1.25em;
   margin-bottom: 0.5em;
-  letter-spacing: -0.03em;
 }
 
 /* H1 - 最醒目：黄色背景+厚边框+大硬阴影 */
@@ -61,7 +60,6 @@
   border: 5px solid #000000;
   box-shadow: 8px 8px 0 #000000;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 /* H2 - 白色背景+红色左边框+硬阴影 */
@@ -103,7 +101,6 @@
 #bm-md h5 {
   font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
   padding-bottom: 0.2em;
   border-bottom: 3px solid #000000;
   display: inline-block;
@@ -112,7 +109,6 @@
 #bm-md h6 {
   font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
   padding-left: 0.5em;
   border-left: 4px dashed #000000;
 }
@@ -456,7 +452,6 @@
   background-color: #feca57;
   color: #000000;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 #bm-md tbody tr:nth-child(even) {
@@ -488,7 +483,6 @@
   padding: 0.12em 0.35em;
   border: 3px solid #000000;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 #bm-md .frontmatter-key::after {
@@ -553,7 +547,6 @@
   border: 4px solid #000000;
   box-shadow: 4px 4px 0 #000000;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 /* ============================================
@@ -611,7 +604,6 @@
   box-shadow: 3px 3px 0 #000000;
   display: inline-block;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 #bm-md dt:first-child {
@@ -661,7 +653,6 @@
   font-weight: 900;
   margin-bottom: 0.5em;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 /* Note - 青绿 */
@@ -748,7 +739,6 @@
   color: #000000;
   padding: 0.3em 0;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 #bm-md summary::marker {
@@ -787,7 +777,6 @@
   border: 3px solid #000000;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 /* ============================================

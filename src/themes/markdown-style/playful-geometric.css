@@ -44,7 +44,6 @@
   line-height: 1.25;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
-  letter-spacing: -0.01em;
 }
 
 /* H1 - 糖果色块标题，非对称圆角 */
@@ -569,12 +568,12 @@
 #bm-md .footnotes {
   margin-top: 2em;
   padding-top: 1.1em;
-  border-top: 5px solid #8b5cf6;
+  border-top: 5px solid #fbbf24;
   font-size: 0.875em;
   color: #64748b;
   /* 彩虹条纹顶部装饰 */
-  background-color: #8b5cf6;
-  background: linear-gradient(90deg, #8b5cf6 0, #8b5cf6 48px, #f472b6 48px, #f472b6 80px, transparent 80px);
+  background-color: #fbbf24;
+  background: linear-gradient(90deg, #fbbf24 0, #fbbf24 48px, #f472b6 48px, #f472b6 80px, transparent 80px);
   background-size: 100% 5px;
   background-repeat: no-repeat;
   background-position: top;

@@ -59,7 +59,6 @@
   line-height: 1.2;
   margin-top: 1.25em;
   margin-bottom: 0.5em;
-  letter-spacing: -0.02em;
   text-transform: uppercase;
 }
 
@@ -71,14 +70,12 @@
   color: #ffffff;
   border: 5px solid #ffe600;
   box-shadow:
-    0 0 25px rgba(255, 58, 242, 0.6),
-    0 0 50px rgba(123, 47, 255, 0.3),
-    10px 10px 0 #00f5d4,
-    20px 20px 0 #ff3af2;
+    0 0 15px rgba(255, 58, 242, 0.35),
+    5px 5px 0 #00f5d4,
+    10px 10px 0 #ff3af2;
   text-shadow:
-    2px 2px 0 #7b2fff,
-    4px 4px 0 #ff3af2,
-    6px 6px 0 #00f5d4;
+    1px 1px 0 #7b2fff,
+    2px 2px 0 #ff3af2;
 }
 
 /* H2 - 洋红色，霓虹边框+双层阴影 */
@@ -86,46 +83,42 @@
   font-size: 1.5em;
   padding: 0.35em 0.55em;
   background: linear-gradient(135deg, rgba(45, 27, 78, 0.95) 0%, rgba(123, 47, 255, 0.3) 100%);
-  color: #ff3af2;
+  color: #ff6bd6;
   border: 4px solid #ff3af2;
   border-left: 12px solid #00f5d4;
   box-shadow:
-    0 0 18px rgba(255, 58, 242, 0.5),
-    8px 8px 0 #ffe600,
-    16px 16px 0 #ff6b35;
-  text-shadow:
-    2px 2px 0 #7b2fff,
-    4px 4px 0 #ff3af2;
+    0 0 10px rgba(255, 58, 242, 0.3),
+    4px 4px 0 #ffe600,
+    8px 8px 0 #ff6b35;
+  text-shadow: 1px 1px 0 #7b2fff;
 }
 
 /* H3 - 较淡洋红，左边框+发光 */
 #bm-md h3 {
   font-size: 1.25em;
   padding: 0.28em 0.55em;
-  color: #ff6bd6;
+  color: #ffa8f0;
   background: linear-gradient(90deg, rgba(255, 58, 242, 0.25) 0%, rgba(123, 47, 255, 0.1) 50%, transparent 100%);
   border-left: 10px solid #ff3af2;
   border-bottom: 4px dashed #00f5d4;
   box-shadow:
-    0 0 15px rgba(255, 58, 242, 0.4),
-    5px 5px 0 #ffe600;
-  text-shadow:
-    1px 1px 0 #7b2fff,
-    2px 2px 0 #ff3af2;
+    0 0 8px rgba(255, 58, 242, 0.25),
+    3px 3px 0 #ffe600;
+  text-shadow: 1px 1px 0 #7b2fff;
 }
 
 /* H4-H6 - 最淡的洋红色系，统一颜色 */
 #bm-md h4,
 #bm-md h5,
 #bm-md h6 {
-  color: #f0a0e8;
-  text-shadow: 0 0 8px rgba(255, 58, 242, 0.4);
+  color: #ffb8f0;
+  text-shadow: 1px 1px 0 rgba(123, 47, 255, 0.5);
 }
 
 #bm-md h4 {
   font-size: 1.125em;
   padding: 0.2em 0.6em;
-  border-left: 8px solid #f0a0e8;
+  border-left: 8px solid #ffb8f0;
   border-bottom: 3px dotted #7b2fff;
   background: linear-gradient(90deg, rgba(255, 58, 242, 0.15) 0%, rgba(123, 47, 255, 0.08) 50%, transparent 100%);
 }
@@ -133,15 +126,13 @@
 #bm-md h5 {
   font-size: 1em;
   padding-left: 0.55em;
-  border-left: 6px dashed #f0a0e8;
-  letter-spacing: 0.1em;
+  border-left: 6px dashed #ffb8f0;
 }
 
 #bm-md h6 {
   font-size: 1em;
   padding-left: 0.55em;
-  border-left: 4px dotted #f0a0e8;
-  letter-spacing: 0.08em;
+  border-left: 4px dotted #ffb8f0;
 }
 
 #bm-md > h1:first-child,
@@ -179,8 +170,8 @@
   padding: 0.1em 0.35em;
   border: 3px solid #ff3af2;
   box-shadow:
-    0 0 8px rgba(255, 230, 0, 0.5),
-    3px 3px 0 #00f5d4;
+    0 0 5px rgba(255, 230, 0, 0.3),
+    2px 2px 0 #00f5d4;
 }
 
 /* 斜体 - 青色发光 */
@@ -188,9 +179,7 @@
 #bm-md i {
   font-style: italic;
   color: #00f5d4;
-  text-shadow:
-    0 0 6px rgba(0, 245, 212, 0.6),
-    0 0 12px rgba(0, 245, 212, 0.3);
+  text-shadow: 0 0 4px rgba(0, 245, 212, 0.35);
 }
 
 /* 删除线 - 洋红粗线 */
@@ -210,9 +199,9 @@
   padding: 0.15em 0.45em;
   border: 4px solid #0d0d1a;
   box-shadow:
-    0 0 12px rgba(255, 230, 0, 0.6),
-    4px 4px 0 #00f5d4,
-    8px 8px 0 #7b2fff;
+    0 0 6px rgba(255, 230, 0, 0.35),
+    2px 2px 0 #00f5d4,
+    4px 4px 0 #7b2fff;
   font-weight: 800;
 }
 
@@ -237,8 +226,8 @@
   padding: 0.15em 0.4em;
   border: 2px solid #ffe600;
   box-shadow:
-    0 0 10px rgba(255, 58, 242, 0.7),
-    2px 2px 0 #00f5d4;
+    0 0 5px rgba(255, 58, 242, 0.35),
+    1px 1px 0 #00f5d4;
 }
 
 /* 下标 - 青色 */
@@ -246,7 +235,7 @@
   vertical-align: sub;
   color: #00f5d4;
   font-weight: 700;
-  text-shadow: 0 0 6px rgba(0, 245, 212, 0.5);
+  text-shadow: 0 0 4px rgba(0, 245, 212, 0.3);
 }
 
 /* 插入文本 - 青紫渐变 */
@@ -257,8 +246,8 @@
   padding: 0.12em 0.4em;
   border: 3px solid #ffe600;
   box-shadow:
-    0 0 8px rgba(0, 245, 212, 0.5),
-    3px 3px 0 #ff3af2;
+    0 0 5px rgba(0, 245, 212, 0.3),
+    2px 2px 0 #ff3af2;
 }
 
 #bm-md q {
@@ -271,9 +260,7 @@
   color: #ff3af2;
   font-weight: 900;
   font-size: 1.35em;
-  text-shadow:
-    0 0 8px rgba(255, 58, 242, 0.7),
-    2px 2px 0 #7b2fff;
+  text-shadow: 0 0 5px rgba(255, 58, 242, 0.4);
 }
 
 #bm-md q::after {
@@ -281,9 +268,7 @@
   color: #00f5d4;
   font-weight: 900;
   font-size: 1.35em;
-  text-shadow:
-    0 0 8px rgba(0, 245, 212, 0.7),
-    2px 2px 0 #7b2fff;
+  text-shadow: 0 0 5px rgba(0, 245, 212, 0.4);
 }
 
 /* 变量 - 黄色底+虚线 */
@@ -294,7 +279,7 @@
   background-color: rgba(255, 230, 0, 0.18);
   padding: 0.1em 0.3em;
   border-bottom: 3px dashed #ffe600;
-  text-shadow: 0 0 6px rgba(255, 230, 0, 0.4);
+  text-shadow: 0 0 4px rgba(255, 230, 0, 0.25);
 }
 
 /* 示例输出 - 紫色边框+发光 */
@@ -307,8 +292,8 @@
   padding: 0.18em 0.45em;
   border: 3px solid #7b2fff;
   box-shadow:
-    0 0 8px rgba(123, 47, 255, 0.5),
-    2px 2px 0 #ff3af2;
+    0 0 5px rgba(123, 47, 255, 0.3),
+    1px 1px 0 #ff3af2;
 }
 
 /* 缩写 - 洋红点状下划线 */
@@ -329,7 +314,7 @@
   padding: 0.08em 0.25em;
   border-bottom: 4px solid #ff3af2;
   background-color: rgba(0, 245, 212, 0.12);
-  text-shadow: 0 0 8px rgba(0, 245, 212, 0.5);
+  text-shadow: 0 0 5px rgba(0, 245, 212, 0.3);
 }
 
 #bm-md a:hover {
@@ -337,8 +322,8 @@
   background: linear-gradient(135deg, #00f5d4 0%, #ff3af2 100%);
   border-bottom-color: #ffe600;
   box-shadow:
-    0 0 18px rgba(0, 245, 212, 0.7),
-    0 0 35px rgba(255, 58, 242, 0.5);
+    0 0 10px rgba(0, 245, 212, 0.4),
+    0 0 20px rgba(255, 58, 242, 0.25);
   text-shadow: none;
 }
 
@@ -354,7 +339,7 @@
   font-size: 0.5em;
   color: #ff3af2;
   font-weight: 600;
-  text-shadow: 0 0 4px rgba(255, 58, 242, 0.5);
+  text-shadow: 0 0 3px rgba(255, 58, 242, 0.3);
 }
 
 #bm-md rp {
@@ -422,7 +407,7 @@
   height: 1.3em;
   accent-color: #ff3af2;
   border: 4px solid #00f5d4;
-  box-shadow: 0 0 8px rgba(255, 58, 242, 0.6);
+  box-shadow: 0 0 5px rgba(255, 58, 242, 0.35);
 }
 
 /* ============================================
@@ -437,10 +422,9 @@
   border: 5px solid #ff3af2;
   border-left: 12px solid #00f5d4;
   box-shadow:
-    0 0 22px rgba(255, 58, 242, 0.4),
-    0 0 45px rgba(0, 245, 212, 0.2),
-    8px 8px 0 #ffe600,
-    16px 16px 0 #ff6b35;
+    0 0 12px rgba(255, 58, 242, 0.25),
+    4px 4px 0 #ffe600,
+    8px 8px 0 #ff6b35;
   /* 内部点阵装饰 */
   background-image:
     linear-gradient(135deg, rgba(45, 27, 78, 0.92) 0%, rgba(123, 47, 255, 0.25) 100%),
@@ -462,8 +446,8 @@
   color: #ff3af2;
   line-height: 1;
   text-shadow:
-    2px 2px 0 #7b2fff,
-    4px 4px 0 #00f5d4;
+    1px 1px 0 #7b2fff,
+    2px 2px 0 #00f5d4;
   margin-right: 0.2em;
   vertical-align: -0.2em;
 }
@@ -480,9 +464,9 @@
   border-color: #ffe600;
   border-left-color: #ff3af2;
   box-shadow:
-    0 0 15px rgba(255, 230, 0, 0.4),
-    5px 5px 0 #7b2fff,
-    10px 10px 0 #00f5d4;
+    0 0 8px rgba(255, 230, 0, 0.25),
+    3px 3px 0 #7b2fff,
+    6px 6px 0 #00f5d4;
 }
 
 #bm-md blockquote blockquote p:first-child::before {
@@ -502,8 +486,8 @@
   padding: 0.2em 0.55em;
   border: 3px solid #00f5d4;
   box-shadow:
-    0 0 10px rgba(123, 47, 255, 0.6),
-    2px 2px 0 #ffe600;
+    0 0 5px rgba(123, 47, 255, 0.35),
+    1px 1px 0 #ffe600;
 }
 
 /* 代码块 - 深色背景+三层阴影 */
@@ -514,10 +498,9 @@
   border: 5px solid #7b2fff;
   border-top: 8px solid #ff3af2;
   box-shadow:
-    0 0 30px rgba(123, 47, 255, 0.5),
-    0 0 60px rgba(255, 58, 242, 0.2),
-    10px 10px 0 #ff3af2,
-    20px 20px 0 #00f5d4;
+    0 0 15px rgba(123, 47, 255, 0.3),
+    5px 5px 0 #ff3af2,
+    10px 10px 0 #00f5d4;
   overflow-x: auto;
   /* 内部条纹装饰 */
   background-image:
@@ -552,10 +535,9 @@
   font-size: 0.9375em;
   border: 5px solid #ff3af2;
   box-shadow:
-    0 0 25px rgba(255, 58, 242, 0.4),
-    0 0 50px rgba(0, 245, 212, 0.2),
-    8px 8px 0 #00f5d4,
-    16px 16px 0 #ffe600;
+    0 0 12px rgba(255, 58, 242, 0.25),
+    4px 4px 0 #00f5d4,
+    8px 8px 0 #ffe600;
 }
 
 /* 表头首行样式（替代 thead） */
@@ -575,7 +557,6 @@
   font-weight: 800;
   color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
   /* 简化 text-shadow，保留单层深色投影提升可读性 */
   text-shadow: 1px 1px 0 #0d0d1a;
 }
@@ -611,8 +592,7 @@
   color: #ff3af2;
   white-space: nowrap;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  text-shadow: 0 0 6px rgba(255, 58, 242, 0.5);
+  text-shadow: 0 0 4px rgba(255, 58, 242, 0.3);
 }
 
 #bm-md .frontmatter-key::after {
@@ -636,9 +616,8 @@
   background: linear-gradient(90deg, #ff3af2, #ffe600, #00f5d4, #7b2fff, #ff6b35, #ff3af2);
   background-size: 200% 100%;
   box-shadow:
-    0 0 18px rgba(255, 58, 242, 0.6),
-    0 0 35px rgba(0, 245, 212, 0.4),
-    0 0 55px rgba(255, 230, 0, 0.2);
+    0 0 10px rgba(255, 58, 242, 0.35),
+    0 0 20px rgba(0, 245, 212, 0.2);
 }
 
 /* ============================================
@@ -651,10 +630,9 @@
   height: auto;
   border: 5px solid #ff3af2;
   box-shadow:
-    0 0 22px rgba(255, 58, 242, 0.5),
-    0 0 45px rgba(0, 245, 212, 0.25),
-    8px 8px 0 #00f5d4,
-    16px 16px 0 #ffe600;
+    0 0 12px rgba(255, 58, 242, 0.3),
+    4px 4px 0 #00f5d4,
+    8px 8px 0 #ffe600;
   margin: 1.1em 0;
 }
 
@@ -686,11 +664,10 @@
   display: inline-block;
   border: 4px solid #0d0d1a;
   box-shadow:
-    0 0 12px rgba(255, 230, 0, 0.6),
-    4px 4px 0 #ff3af2,
-    8px 8px 0 #00f5d4;
+    0 0 6px rgba(255, 230, 0, 0.35),
+    2px 2px 0 #ff3af2,
+    4px 4px 0 #00f5d4;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 /* ============================================
@@ -720,8 +697,8 @@
   padding: 0.18em 0.5em;
   border: 3px solid #00f5d4;
   box-shadow:
-    0 0 10px rgba(255, 58, 242, 0.6),
-    2px 2px 0 #ffe600;
+    0 0 5px rgba(255, 58, 242, 0.35),
+    1px 1px 0 #ffe600;
 }
 
 #bm-md .footnote-backref,
@@ -733,8 +710,8 @@
   padding: 0.15em 0.45em;
   border: 3px solid #0d0d1a;
   box-shadow:
-    0 0 8px rgba(0, 245, 212, 0.6),
-    2px 2px 0 #ff3af2;
+    0 0 5px rgba(0, 245, 212, 0.35),
+    1px 1px 0 #ff3af2;
 }
 
 /* ============================================
@@ -754,10 +731,9 @@
   border: 4px solid #0d0d1a;
   display: inline-block;
   box-shadow:
-    0 0 12px rgba(255, 58, 242, 0.5),
-    4px 4px 0 #00f5d4;
+    0 0 6px rgba(255, 58, 242, 0.3),
+    2px 2px 0 #00f5d4;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 #bm-md dt:first-child {
@@ -785,12 +761,12 @@
   background: linear-gradient(180deg, #2d1b4e 0%, #0d0d1a 100%);
   border: 4px solid #00f5d4;
   box-shadow:
-    0 0 12px rgba(0, 245, 212, 0.5),
-    5px 5px 0 #ff3af2;
+    0 0 6px rgba(0, 245, 212, 0.3),
+    3px 3px 0 #ff3af2;
   color: #00f5d4;
   font-weight: 700;
   text-transform: uppercase;
-  text-shadow: 0 0 6px rgba(0, 245, 212, 0.5);
+  text-shadow: 0 0 4px rgba(0, 245, 212, 0.3);
 }
 
 /* ============================================
@@ -803,8 +779,8 @@
   border: 5px solid #7b2fff;
   border-top: 8px solid #7b2fff;
   box-shadow:
-    0 0 18px rgba(123, 47, 255, 0.4),
-    6px 6px 0 #ff3af2;
+    0 0 10px rgba(123, 47, 255, 0.25),
+    3px 3px 0 #ff3af2;
   background-color: rgba(45, 27, 78, 0.85);
   /* 内部点阵装饰 */
   background-image: radial-gradient(circle, rgba(123, 47, 255, 0.05) 1px, transparent 1px);
@@ -818,7 +794,12 @@
   font-weight: 900;
   margin-bottom: 0.55em;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+}
+
+/* Alert 图标增强可见性 */
+#bm-md .markdown-alert-title svg {
+  color: #ffffff;
+  filter: drop-shadow(0 0 3px currentColor);
 }
 
 /* Note - 青绿 */
@@ -826,13 +807,13 @@
   border-color: #00f5d4;
   border-top: 8px solid #00f5d4;
   box-shadow:
-    0 0 18px rgba(0, 245, 212, 0.4),
-    6px 6px 0 #7b2fff;
+    0 0 10px rgba(0, 245, 212, 0.25),
+    3px 3px 0 #7b2fff;
 }
 
 #bm-md .markdown-alert-note .markdown-alert-title {
-  color: #00f5d4;
-  text-shadow: 0 0 10px rgba(0, 245, 212, 0.6);
+  color: #4fffea;
+  text-shadow: 0 0 8px rgba(0, 245, 212, 0.5);
 }
 
 /* Tip - 黄色 */
@@ -840,13 +821,13 @@
   border-color: #ffe600;
   border-top: 8px solid #ffe600;
   box-shadow:
-    0 0 18px rgba(255, 230, 0, 0.4),
-    6px 6px 0 #00f5d4;
+    0 0 10px rgba(255, 230, 0, 0.25),
+    3px 3px 0 #00f5d4;
 }
 
 #bm-md .markdown-alert-tip .markdown-alert-title {
-  color: #ffe600;
-  text-shadow: 0 0 10px rgba(255, 230, 0, 0.6);
+  color: #fff04d;
+  text-shadow: 0 0 8px rgba(255, 230, 0, 0.5);
 }
 
 /* Important - 紫色 */
@@ -854,13 +835,13 @@
   border-color: #7b2fff;
   border-top: 8px solid #c792ea;
   box-shadow:
-    0 0 18px rgba(123, 47, 255, 0.5),
-    6px 6px 0 #ff3af2;
+    0 0 10px rgba(123, 47, 255, 0.3),
+    3px 3px 0 #ff3af2;
 }
 
 #bm-md .markdown-alert-important .markdown-alert-title {
-  color: #c792ea;
-  text-shadow: 0 0 10px rgba(199, 146, 234, 0.6);
+  color: #d4a8f0;
+  text-shadow: 0 0 8px rgba(199, 146, 234, 0.5);
 }
 
 /* Warning - 橙色 */
@@ -868,13 +849,13 @@
   border-color: #ff6b35;
   border-top: 8px solid #ff6b35;
   box-shadow:
-    0 0 18px rgba(255, 107, 53, 0.5),
-    6px 6px 0 #ffe600;
+    0 0 10px rgba(255, 107, 53, 0.3),
+    3px 3px 0 #ffe600;
 }
 
 #bm-md .markdown-alert-warning .markdown-alert-title {
-  color: #ff6b35;
-  text-shadow: 0 0 10px rgba(255, 107, 53, 0.6);
+  color: #ff9066;
+  text-shadow: 0 0 8px rgba(255, 107, 53, 0.5);
 }
 
 /* Caution - 洋红 */
@@ -882,13 +863,13 @@
   border-color: #ff3af2;
   border-top: 8px solid #ff3af2;
   box-shadow:
-    0 0 18px rgba(255, 58, 242, 0.5),
-    6px 6px 0 #ff6b35;
+    0 0 10px rgba(255, 58, 242, 0.3),
+    3px 3px 0 #ff6b35;
 }
 
 #bm-md .markdown-alert-caution .markdown-alert-title {
-  color: #ff3af2;
-  text-shadow: 0 0 10px rgba(255, 58, 242, 0.6);
+  color: #ff6bf5;
+  text-shadow: 0 0 8px rgba(255, 58, 242, 0.5);
 }
 
 /* ============================================
@@ -899,7 +880,7 @@
   font-size: 1em;
   padding: 0 0.28em;
   color: #00f5d4;
-  text-shadow: 0 0 6px rgba(0, 245, 212, 0.4);
+  text-shadow: 0 0 4px rgba(0, 245, 212, 0.25);
 }
 
 #bm-md .math-display {
@@ -910,10 +891,9 @@
   background: linear-gradient(135deg, rgba(45, 27, 78, 0.92) 0%, rgba(13, 13, 26, 0.96) 100%);
   border: 5px solid #7b2fff;
   box-shadow:
-    0 0 22px rgba(123, 47, 255, 0.4),
-    0 0 45px rgba(255, 58, 242, 0.2),
-    8px 8px 0 #ff3af2,
-    16px 16px 0 #00f5d4;
+    0 0 12px rgba(123, 47, 255, 0.25),
+    4px 4px 0 #ff3af2,
+    8px 8px 0 #00f5d4;
   color: #ffffff;
 }
 
@@ -927,8 +907,8 @@
   background: linear-gradient(135deg, rgba(45, 27, 78, 0.85) 0%, rgba(13, 13, 26, 0.92) 100%);
   border: 5px solid #00f5d4;
   box-shadow:
-    0 0 18px rgba(0, 245, 212, 0.4),
-    6px 6px 0 #ff3af2;
+    0 0 10px rgba(0, 245, 212, 0.25),
+    3px 3px 0 #ff3af2;
 }
 
 #bm-md summary {
@@ -937,8 +917,7 @@
   color: #00f5d4;
   padding: 0.35em 0;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  text-shadow: 0 0 10px rgba(0, 245, 212, 0.5);
+  text-shadow: 0 0 6px rgba(0, 245, 212, 0.3);
 }
 
 #bm-md summary::marker {
@@ -962,10 +941,9 @@
   margin: 1.3em 0;
   border: 5px solid #ff3af2;
   box-shadow:
-    0 0 22px rgba(255, 58, 242, 0.5),
-    0 0 45px rgba(0, 245, 212, 0.25),
-    8px 8px 0 #00f5d4,
-    16px 16px 0 #ffe600;
+    0 0 12px rgba(255, 58, 242, 0.3),
+    4px 4px 0 #00f5d4,
+    8px 8px 0 #ffe600;
 }
 
 /* ============================================
@@ -981,10 +959,9 @@
   border: 4px solid #0d0d1a;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
   box-shadow:
-    0 0 10px rgba(0, 245, 212, 0.5),
-    3px 3px 0 #ff3af2;
+    0 0 5px rgba(0, 245, 212, 0.3),
+    2px 2px 0 #ff3af2;
 }
 
 /* ============================================

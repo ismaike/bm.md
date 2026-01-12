@@ -31,7 +31,6 @@
   font-weight: 700;
   line-height: 1.4em;
   word-break: break-all;
-  letter-spacing: -0.02em;
   font-family:
     PingFang SC,
     system-ui,
@@ -71,7 +70,6 @@
   font-size: 20px;
   margin-top: 28px;
   margin-bottom: 20px;
-  letter-spacing: -0.01em;
 }
 
 #bm-md h4,
@@ -80,7 +78,6 @@
   font-size: 18px;
   margin-top: 24px;
   margin-bottom: 16px;
-  letter-spacing: -0.01em;
   color: #25936c;
 }
 
