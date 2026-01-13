@@ -39,6 +39,18 @@ pnpm dev
 
 本项目由阿里云ESA提供加速、计算和保护: [![Alibaba ESA](https://img.alicdn.com/imgextra/i3/O1CN01H1UU3i1Cti9lYtFrs_!!6000000000139-2-tps-7534-844.png)](https://alibaba.bm.md/)
 
+阿里云部署配置：
+
+```txt
+安装命令: pnpm install
+构建命令: pnpm run build
+根目录: /
+静态资源目录: dist/client
+函数文件路径: dist/server/server.js
+```
+
+其他环境部署配置参考 [Nitro](https://v3.nitro.build/deploy) 文档。
+
 ## 📖 文档
 
 - [功能说明](https://github.com/miantiao-me/bm.md/blob/master/docs/features.md) - 完整功能介绍
